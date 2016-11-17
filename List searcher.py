@@ -42,14 +42,15 @@ while b != "x":
         c = 0
 
     for i in range(0,len(list1)):
-        print(list1[i].name)
+
         
         if i == counter:
+            print("--" + list1[i].name)
             a = list1[i].description
             print(a)
         
         else:
-            c = 0
+            print(list1[i].name)
         print()
         
 print("You selected: " + list1[counter].name)
